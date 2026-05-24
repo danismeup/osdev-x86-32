@@ -34,6 +34,7 @@ BOOT_BIN  = $(OBJ_DIR)/boot.bin
 
 CFLAGS    = -ffreestanding -fno-builtin -fno-stack-protector \
              -nostdinc -nostdlib -Wall -Wextra -O0 -g \
+             -fno-pic -fno-pie \
              $(CFLAGS_EXTRA)
 
 LDFLAGS   = -T linker.ld --oformat binary -nostdlib $(LDFLAGS_ARCH)
