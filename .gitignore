@@ -1,0 +1,17 @@
+# Build output
+build/
+*.bin
+*.img
+*.o
+*.elf
+*.map
+
+# Editor
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
